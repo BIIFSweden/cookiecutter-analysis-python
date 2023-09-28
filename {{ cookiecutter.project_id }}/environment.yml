@@ -1,0 +1,10 @@
+name: {{ cookiecutter.project_id }}
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python
+  - jupyterlab
+  - pip:
+    - -r requirements.txt
